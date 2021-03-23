@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    box-shadow: 2px 2px 15px #333;
+}
+
+table tr td:hover {
+    background: #333;
+    color: #f4f3f2;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+table tr td:active {
+    background: rgb(224, 91, 3);
+}
+
+#dataBody tr:hover {
+    background: #333;
+    color: #f4f3f2;
+}
+
+footer {
+    background: #000;
+    color: #f4f3f2;
+    transform: scaleX(1.1);
+    text-align: center;
+    padding: 20px;
+}
